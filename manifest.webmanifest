@@ -1,3 +1,4 @@
+
 {
   "id": "./",
   "name": "Ritmo — Rastreador de hábitos",
@@ -12,8 +13,23 @@
   "theme_color": "#111827",
   "prefer_related_applications": false,
   "icons": [
-    {"src":"icons/ritmo-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
-    {"src":"icons/ritmo-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
-    {"src":"icons/ritmo-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+    {
+      "src": "./ritmo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./ritmo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./ritmo-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
