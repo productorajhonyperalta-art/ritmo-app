@@ -1,0 +1,23 @@
+RITMO — PWA DESCARGABLE
+
+Contenido
+- index.html: aplicación Ritmo con la apariencia actual.
+- manifest.webmanifest: nombre, iconos y configuración instalable.
+- sw.js: caché para volver a abrir la aplicación sin conexión.
+- icons/: iconos de aplicación.
+
+IMPORTANTE
+Una PWA necesita servirse desde HTTPS (o localhost para pruebas) para que el navegador permita instalarla y registrar el service worker. No basta con abrir index.html directamente desde Archivos.
+
+CÓMO PUBLICAR GRATIS
+1. Descomprime el ZIP.
+2. Sube el contenido de la carpeta ritmo-pwa a un alojamiento estático HTTPS (por ejemplo, GitHub Pages, Netlify o Cloudflare Pages).
+3. Abre el enlace HTTPS en Chrome para Android o en un navegador compatible.
+4. Pulsa “Instalar Ritmo” si aparece, o abre el menú del navegador y elige “Instalar aplicación” / “Añadir a pantalla de inicio”.
+5. Comparte ese mismo enlace con otras personas. Cada persona instala su copia en su propio dispositivo.
+
+DATOS Y PRIVACIDAD
+Ritmo no incluye cuentas ni servidor de usuarios. Los hábitos y registros se guardan en el almacenamiento local del navegador/dispositivo y no se envían a un servidor. Cada instalación/origen mantiene sus propios datos. No borres los datos del navegador ni desinstales la app sin exportar primero una copia de seguridad desde la propia aplicación. Usa la función de exportación/importación JSON para hacer copias de seguridad o migrar datos.
+
+DISTRIBUCIÓN
+Este paquete incluye los archivos necesarios para publicar la PWA. No incluye una URL pública ya desplegada: debes subir los archivos a un alojamiento HTTPS para poder instalarla y compartir un enlace.
